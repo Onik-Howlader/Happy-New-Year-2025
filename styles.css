@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.new-year-banner {
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+}
+
+.new-year-banner img {
+    width: 1320px;
+    display: block;
+    margin: auto;
+    filter: brightness(60%);
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    text-align: center;
+}
+
+.new-year-message {
+    font-size: 30px;
+}
+
+.celebration {
+    font-size: 72px;
+    font-weight: 900;
+    width: 700px;
+    line-height: 95px;
+}
+
+.holiday-dealis {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.holiday-dealis h1 {
+    font-size: 88px;
+    color: red;
+}
+
+.holiday-dealis h3 {
+    margin-top: 10px;
+    color: red;
+    font-size: 20px;
+}
+
+.holiday-dealis h5 {
+    margin-top: 15px;
+    font-size: 40px;
+}
+
+.holiday-section img {
+    margin-top: 50px;
+    margin-left: 600px;
+    width: 700px;
+    height: 500px;
+}
+
+.midnight-party {
+    margin-top: 50px;
+    position: relative;
+}
+
+.midnight-party img {
+    width: 1320px;
+    filter: brightness(60%);
+    display: block;
+    margin: auto;
+}
+
+.midnight-content {
+    position: absolute;
+    align-items: center;
+    top: 50px;
+    left: 400px;
+}
+
+.midnight-party h1 {
+    color: #fff;
+    font-size: 88px;
+    width: 642px;
+}
+
+.midnight-party p {
+    margin-top: 25px;
+    font-size: 20px;
+    width: 650px;
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.midnight-party .join-btn1 {
+    margin-top: 32px;
+    margin-left: 30px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.midnight-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.midnight-content .img2024 {
+    width: 319.83px;
+    height: 464.662px;
+    margin-left: 100px;
+    padding: 0.008px 0px 0px 0px;
+}
+
+.park-section {
+    margin-top: 120px;
+
+}
+
+.new-park-hotel {
+    display: block;
+    margin: auto;
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(to top, #fff, #fdd);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px red solid;
+    border-radius: 15px;
+}
+
+.new-park {
+    margin-top: 50px;
+}
+
+.new-park h4 {
+    font-size: 30px;
+}
+
+.new-park .color {
+    color: red;
+    font-size: 27px;
+    line-height: 45px;
+}
+
+.new-park button {
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 900;
+    color: #fff;
+    background-color: red;
+    padding: 7px 18px;
+    margin-top: 48px;
+    margin-left: 50px;
+}
+
+.offer-section {
+    margin-top: 80px;
+}
+
+.offer-part {
+    display: block;
+    margin: auto;
+    width: 1320px;
+    height: 320px;
+    background: #FFF;
+    border: 1px solid red;
+    border-radius: 15px;
+}
+
+.best-offer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.comming-soong h3 {
+    color: red;
+    font-size: 20px;
+    margin-left: -60px;
+}
+
+.comming-soong h1 {
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: 900;
+    margin-left: -60px;
+}
+
+.comming-soong p {
+    color: rgba(7, 2, 17, 0.60);
+    ;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 420px;
+    line-height: 30px;
+    margin-left: -60px;
+}
+
+.image-radius {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-right: 120px;
+
+}
+
+.happy-image {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.new-year h2 {
+    font-size: 45px;
+    font-weight: 900;
+    color: #F00;
+}
+
+.new-year p {
+    font-size: 20px;
+    line-height: 25px;
+    width: 250px;
+    color: rgba(7, 2, 17, 0.60);
+    margin-right: -90px;
+}
+
+.group-img {
+    width: 140px;
+    height: 140px;
+}
+
+.holiday-banner {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.function {
+    font-size: 23px;
+    margin-bottom: 16px;
+}
+
+.holiday-banner h1 {
+    font-size: 48px;
+    margin-bottom: 16px;
+
+}
+
+.holiday-banner span {
+    color: #F00;
+}
+
+.dolor {
+    margin-left: 590px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 750px;
+    color: rgba(7, 2, 17, 0.60);
+}
+
+.discount-part {
+    margin-bottom: 150px;
+    display: block;
+    margin: auto;
+    width: 1320px;
+    height: 660px;
+    border-radius: 15px;
+    background: #FFF;
+    border: 1px solid black;
+}
+
+.box img {
+    width: 450.77px;
+    height: 400.319px;
+    position: relative;
+    margin-left: 150px;
+}
+
+.gift-box {
+    display: flex;
+}
+
+.box {
+    position: relative;
+    margin-top: 170px;
+}
+
+.red-footer {
+    margin-top: -142px;
+}
+
+.discount {
+    margin-left: 291px;
+    position: relative;
+}
+
+.circle {
+    margin-top: 68px;
+    margin-left: -150px;
+    position: absolute;
+}
