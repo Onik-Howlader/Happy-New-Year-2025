@@ -133,7 +133,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 1px red solid;
     border-radius: 15px;
 }
 
@@ -173,7 +172,6 @@
     width: 1320px;
     height: 320px;
     background: #FFF;
-    border: 1px solid red;
     border-radius: 15px;
 }
 
@@ -284,7 +282,6 @@
     height: 660px;
     border-radius: 15px;
     background: #FFF;
-    border: 1px solid black;
 }
 
 .box img {
@@ -322,11 +319,9 @@
     margin-top: 120px;
     width: 1320px;
     height: 1107px;
-    border: 1px solid #f00;
     border-radius: 15px;
     display: block;
     margin: auto;
-    margin-bottom: 100px;
 }
 
 .gift-section{
@@ -362,4 +357,135 @@
     width: 424px;
     height: 450px;
     border-radius: 16px;
+}
+
+.message-section{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.message-part{
+    width: 1320px;
+    height: 550px;
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 15px;
+    margin: auto;
+    display: block;
+}
+
+.message-part img{
+    margin-top: 80px;
+    margin-left: 585px;
+}
+
+.message-part h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.message-part p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 22px;
+    margin-left: 285px;
+    color: rgba(7, 2, 17, 0.60);
+    width: 730px;
+}
+
+.btn{
+    margin-top: 50px;
+    margin-left: 336px;
+}
+.btn input{
+    color: rgba(7, 2, 17, 0.30);
+    background-color: #FFF;
+    font-size: 18px;
+    padding: 25px 0px;
+    padding-left: 40px;
+    padding-right: 100px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.btn button{
+    color: #FFF;
+    background-color: #F00;
+    font-size: 18px;
+    padding: 25px 0px;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-left: -6px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: black;
+    color: #F00;
+    font-size: 22px;
+    transition: .300s ease-in;
+}
+
+
+/* style footer section */
+.footer-part{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+}
+.contact-info{
+    justify-content: space-around;
+}
+.contact-info address{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500px;
+    margin-top: 120px;
+    width: 350px;
+}
+
+.contact-info{
+    display: flex;
+}
+.contact{
+    color: #FFF;
+    font-size: 20px;
+    margin-top: 120px;
+}
+
+.phone{
+    display: flex;
+    column-gap: 10px;
+}
+.web-link{
+    column-gap: 10px;
+    display: flex;
+}
+
+.social-media{
+    margin-top: 125px;
+    margin-left: 800px;
+}
+
+.social-media img{
+    width: 64px;
+height: 64px;
+padding: 5px;
+}
+
+.footer-last{
+    color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    column-gap: 900px;
+}
+
+.caption{
+    color: #FFF;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 50px;
 }
